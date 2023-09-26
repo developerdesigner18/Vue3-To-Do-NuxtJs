@@ -76,3 +76,6 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 <!-- To Run the test  -->
 npm run test
+
+<!-- to get the coverage -->
+npm run coverage
