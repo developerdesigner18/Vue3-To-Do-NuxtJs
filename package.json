@@ -7,14 +7,21 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test": "vitest"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@vitejs/plugin-vue": "^4.3.4",
     "autoprefixer": "^10.4.16",
+    "jsdom": "^22.1.0",
     "nuxt": "^3.7.3",
     "postcss": "^8.4.30",
     "tailwindcss": "^3.3.3",
+    "vitest": "^0.34.5"
+  },
+  "dependencies": {
+    "nuxt-vitest": "^0.10.5",
     "vitest": "^0.34.5"
   }
 }
